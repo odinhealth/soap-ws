@@ -18,9 +18,8 @@
  */
 package org.reficio.ws.builder;
 
-import org.reficio.ws.SoapContext;
-
 import javax.xml.namespace.QName;
+import org.reficio.ws.SoapContext;
 
 /**
  * @author Tom Bujok
@@ -38,6 +37,8 @@ public interface SoapBuilderFinder {
     SoapBuilderFinder localPart(String localPart);
 
     SoapBuilderFinder prefix(String prefix);
+
+    SoapBuilderFinder serviceAndPort(QName service, String port);
 
     SoapBuilder find();
 

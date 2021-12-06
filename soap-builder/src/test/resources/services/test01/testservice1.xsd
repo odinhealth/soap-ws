@@ -171,7 +171,7 @@ xmlns:tns="http://schemas.eviware.com/TestService/v1/">
       </s:complexType>
       <s:simpleType name="CompareCondition">
       	<s:restriction base="s:string">
-      		<s:pattern value="([\w\.@-]{3,30})?"></s:pattern>
+      		<s:pattern value="([\w\.@\-]{3,30})?"></s:pattern>
       	</s:restriction>
       </s:simpleType>
       <s:simpleType name="StringCompareMethod">
