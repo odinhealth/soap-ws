@@ -1,6 +1,6 @@
 # soap-ws [![Build Status](http://img.shields.io/travis/reficio/soap-ws.svg)](http://travis-ci.org/reficio/soap-ws)
 
-## A lightweight and easy-to-use Java library to handle SOAP on a purely XML level.
+## A lightweight and easy-to-use Java library to handle SOAP on a purely XML level. 
 
 ### Intro
 Welcome to soap-ws! This is a lightweight and easy-to-use Java library that wraps Spring-WS and enables handling SOAP on a purely XML level. soap-ws is based on four main abstractions:
